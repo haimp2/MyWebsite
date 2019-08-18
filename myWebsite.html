@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Testing</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="myWebsiteStyle.css">
+    <title>Title</title>
+
+</head>
+<body>
+<!--Wrap-->
+<div id="bodywrap">
+
+    <section id="topPage">
+<!--        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top border-bottom">-->
+<!--            <a id="logo" href="#"></a>-->
+<!--            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                <span class="navbar-toggler-icon"></span>-->
+<!--            </button>-->
+<!--            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">-->
+<!--                <div class="navbar-nav">-->
+<!--                    <a class="nav-item nav-link" href="#">A bout <span class="sr-only">(current)</span></a>-->
+<!--                    <a class="nav-item nav-link" href="#">Contact</a>-->
+<!--                    <a class="nav-item nav-link" href="#">Skills</a>-->
+<!--                    <a class="nav-item nav-link" href="#">Work</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </nav>-->
+
+        <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top border-bottom">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link" href="#">Skills</a>
+                    <a class="nav-item nav-link" href="#">Work</a>
+                </div>
+            </div>
+        </nav>
+<!--        end-navbar-->
+        <div id="topPageContainer" class="container text-center text-white">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="col-11 col-md-6">
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, perspiciatis!</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    end of top page-->
+    <section id="aboutBlock">
+        <div class="container-fluid">
+            <h1 class="text-center py-5">My name is Haim Petel</h1>
+            <div class="row">
+                <div class="col-12 col-lg-9 text-center align-self-center">
+                    <div class="row justify-content-center">
+                        <div class="col-7">
+                            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis numquam perspiciatis vero voluptate? Accusamus architecto aspernatur delectus dignissimos dolore, ducimus eaque est eveniet excepturi in incidunt minima minus natus non nulla officiis pariatur porro provident quos ratione repellat, vel vero. Aliquam atque consequatur dolor doloremque eius esse excepturi fuga fugiat illo impedit ipsa ipsam mollitia necessitatibus nesciunt provident quasi reiciendis, saepe sequi, tenetur totam, ullam unde voluptatem! Asperiores, molestiae!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block col-lg-3 align-self-center">
+                    <img id="myImg" src="img/my-pic.jpg" alt="" class="\" class="px-auto">
+                </div>
+            </div>
+        </div>
+        <hr class="mb-0">
+    </section>
+
+    <section id="skillsBlock">
+        <div class="container-fluid">
+            <h1 class="text-center py-5">Skills</h1>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-9 text-center align-self-center">
+                    <div class="row justify-content-center">
+                        <div class="col-7">
+                            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis numquam perspiciatis vero voluptate? Accusamus architecto aspernatur delectus dignissimos dolore, ducimus eaque est eveniet excepturi in incidunt minima minus natus non nulla officiis pariatur porro provident quos ratione repellat, vel vero. Aliquam atque consequatur dolor doloremque eius esse excepturi fuga fugiat illo impedit ipsa ipsam mollitia necessitatibus nesciunt provident quasi reiciendis, saepe sequi, tenetur totam, ullam unde voluptatem! Asperiores, molestiae!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6b4ea012e5.js"></script>
+
+<script>
+
+    $(function () {
+        $(document).scroll(function () {
+            var $top = $("#topPage");
+            var $nav = $(".navbar");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $top.height() - $nav.height());
+        });
+    });
+
+</script>
+
+</body>
+</html>
