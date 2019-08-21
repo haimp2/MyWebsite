@@ -46,6 +46,12 @@
     background-color:#f6f6f6;
 }
 
+#contactBlock{
+
+    background-color: #191213;
+    color: white;
+}
+
 #myImg{
     position:page;
     width: 100%;
@@ -55,6 +61,16 @@
 
 #aboutBlock .container-fluid{
     height: 36.5rem;
+}
+
+#aboutBlock h1{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+#myName{
+    font-size: 5rem;
+    font-weight: bold;
 }
 
 .navbar.scrolled {
